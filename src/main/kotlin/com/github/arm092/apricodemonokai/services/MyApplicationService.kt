@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.arm092.apricodemonokai.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.arm092.apricodemonokai.MyBundle
 
 class MyApplicationService {
 

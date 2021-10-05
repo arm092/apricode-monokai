@@ -1,7 +1,7 @@
-package org.jetbrains.plugins.template.services
+package com.github.arm092.apricodemonokai.services
 
 import com.intellij.openapi.project.Project
-import org.jetbrains.plugins.template.MyBundle
+import com.github.arm092.apricodemonokai.MyBundle
 
 class MyProjectService(project: Project) {
 
