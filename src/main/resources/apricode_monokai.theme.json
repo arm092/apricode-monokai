@@ -1,0 +1,20 @@
+{
+  "name": "Apricode Monokai",
+  "dark": true,
+  "author": "Apricode Team",
+  "editorScheme": "/apricode_monokai.xml",
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#66d9ef",
+      "Actions.Green": "#99cc33",
+      "Actions.Red": "#e80e5e",
+      "Actions.Yellow": "#fd9721"
+    }
+  },
+  "colors": {
+    "basicBackground": "#272822"
+  },
+  "ui": {
+    "Panel.background": "basicBackground"
+  }
+}
