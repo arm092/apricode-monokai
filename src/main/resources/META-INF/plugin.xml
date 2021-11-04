@@ -3,7 +3,7 @@
     <id>com.github.arm092.apricodemonokai</id>
     <name>Apricode Monokai</name>
     <vendor>arm092</vendor>
-
+    <description>Applies monokai and Apricode Team brand colors to the editor</description>
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
@@ -17,4 +17,6 @@
         <listener class="com.github.arm092.apricodemonokai.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+    <change-notes>Updated injected language color.</change-notes>
+    <version>1.0.1</version>
 </idea-plugin>

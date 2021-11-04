@@ -1,7 +1,8 @@
-<!-- Keep a Changelog guide -> https://keepachangelog.com -->
+# Changelog
 
-# apricode-monokai Changelog
+## [1.0.1]
+- Updated injected language colors
 
-## [Unreleased]
-### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+## [1.0.0]
+- First Release
+
