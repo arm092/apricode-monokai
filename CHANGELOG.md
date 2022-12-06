@@ -1,7 +1,14 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# new-apricode-monokai Changelog
+# apricode-monokai Changelog
+
+## [1.0.1]
+### Updated
+- Injected language colors
+
+## [1.0.0]
+- First Release
 
 ## [Unreleased]
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- Support for IntelliJ Platform IDE 2022.3

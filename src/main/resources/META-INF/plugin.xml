@@ -1,18 +1,23 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.arm092.newapricodemonokai</id>
-    <name>IntelliJ Platform Plugin new-apricode-monokai</name>
+    <id>com.github.arm092.apricodemonokai</id>
+    <name>Apricode Monokai</name>
     <vendor>arm092</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.arm092.newapricodemonokai.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.arm092.newapricodemonokai.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.github.arm092.apricodemonokai.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.arm092.apricodemonokai.services.MyProjectService"/>
+        <themeProvider id="7b938e48-d41e-47b2-ac7f-e1641a0c99cd" path="/apricode_monokai.theme.json"/>
+        <themeMetadataProvider path="/META-INF/ApricodeMonokai.themeMetadata.json"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.arm092.newapricodemonokai.listeners.MyProjectManagerListener"
+        <listener class="com.github.arm092.apricodemonokai.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+    <change-notes>Added support for IDE 2022.3</change-notes>
+    <version>1.1.0</version>
 </idea-plugin>

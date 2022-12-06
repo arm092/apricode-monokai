@@ -1,11 +1,11 @@
-<scheme name="Apricode Monokai" version="142" parent_scheme="Darcula">
+<scheme name="apricode_monokai" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2021-10-08T23:51:45</property>
     <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2023</property>
-    <property name="modified">2023-04-04T23:24:55</property>
-    <property name="originalScheme">Darcula</property>
+    <property name="ideVersion">2021.2.2.0.0</property>
+    <property name="modified">2021-10-08T23:51:55</property>
+    <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <font>
@@ -27,16 +27,15 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="669933" />
     <option name="ANNOTATIONS_COLOR" value="88846f" />
-    <option name="CARET_COLOR" value="f8f8f2" />
     <option name="DOC_COMMENT_GUIDE" value="669933" />
     <option name="DOC_COMMENT_LINK" value="66d9ef" />
     <option name="ERROR_HINT" value="e80e5e" />
     <option name="FILESTATUS_COPIED" value="a9dc76" />
-    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="99cc33" />
+    <option name="FILESTATUS_HIJACKED" value="" />
+    <option name="FILESTATUS_OBSOLETE" value="" />
+    <option name="FILESTATUS_SUPPRESSED" value="" />
+    <option name="FILESTATUS_SWITCHED" value="" />
     <option name="INFORMATION_HINT" value="88846f" />
-    <option name="LINE_NUMBERS_COLOR" value="75715e" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="75715e" />
-    <option name="METHOD_SEPARATORS_COLOR" value="75715e" />
     <option name="MODIFIED_LINES_COLOR" value="2c8091" />
     <option name="RECENT_LOCATIONS_SELECTION" value="272822" />
     <option name="ScrollBar.hoverThumbColor" value="88846f" />
@@ -52,23 +51,7 @@
     </option>
     <option name="BLADE_TEXT_BLOCK_BOUNDARY">
       <value>
-        <option name="FOREGROUND" value="66d9ef" />
-      </value>
-    </option>
-    <option name="BOOKMARKS_ATTRIBUTES">
-      <value>
-        <option name="ERROR_STRIPE_COLOR" value="f8f8f2" />
-      </value>
-    </option>
-    <option name="BREADCRUMBS_HOVERED">
-      <value>
-        <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="75715e" />
-      </value>
-    </option>
-    <option name="BREADCRUMBS_INACTIVE">
-      <value>
-        <option name="FOREGROUND" value="f8f8f2" />
+        <option name="FOREGROUND" value="d2deec" />
       </value>
     </option>
     <option name="CSS.ATTRIBUTE_NAME">
@@ -145,6 +128,11 @@
         <option name="FOREGROUND" value="99cc33" />
       </value>
     </option>
+    <option name="CSS.STRING">
+      <value>
+        <option name="FOREGROUND" value="efd365" />
+      </value>
+    </option>
     <option name="CSS.UNICODE.RANGE">
       <value>
         <option name="FOREGROUND" value="c256f1" />
@@ -152,12 +140,12 @@
     </option>
     <option name="CSS.URL">
       <value>
-        <option name="FOREGROUND" value="ffd230" />
+        <option name="FOREGROUND" value="fd9721" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="b55e00" />
+        <option name="FOREGROUND" value="66d9ef" />
         <option name="EFFECT_COLOR" value="66d9ef" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -268,7 +256,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="75715e" />
+        <option name="FOREGROUND" value="787360" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -315,7 +303,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="ffd230" />
+        <option name="FOREGROUND" value="efd365" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
@@ -376,17 +364,14 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GRAMMAR_ERROR">
+    <option name="HTML_ATTRIBUTE_NAME">
       <value>
-        <option name="EFFECT_COLOR" value="ff2672" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="FOREGROUND" value="99cc33" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
-    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
-    <option name="HTML_CUSTOM_TAG_NAME">
+    <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="ff9933" />
+        <option name="FOREGROUND" value="efd365" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
@@ -404,22 +389,10 @@
         <option name="FOREGROUND" value="e80e5e" />
       </value>
     </option>
-    <option name="HTTP_REQUEST_MESSAGE_BODY">
-      <value>
-        <option name="FOREGROUND" value="66d9ef" />
-      </value>
-    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="66d9ef" />
         <option name="EFFECT_COLOR" value="66d9ef" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="344134" />
-        <option name="ERROR_STRIPE_COLOR" value="99cc33" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -442,11 +415,7 @@
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="75715e" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
+      <value />
     </option>
     <option name="INLAY_DEFAULT">
       <value>
@@ -479,7 +448,7 @@
     </option>
     <option name="JS.DOC_TYPE">
       <value>
-        <option name="FOREGROUND" value="66d9ef" />
+        <option name="FOREGROUND" value="2c8091" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -487,11 +456,6 @@
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE">
       <value />
-    </option>
-    <option name="JS.REGEXP">
-      <value>
-        <option name="FOREGROUND" value="2c8091" />
-      </value>
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value>
@@ -514,13 +478,6 @@
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
-    <option name="MATCHED_BRACE_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ff9933" />
-        <option name="BACKGROUND" value="3b514d" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="88846f" />
@@ -533,12 +490,6 @@
       </value>
     </option>
     <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
-    <option name="PHP_EXEC_COMMAND_ID">
-      <value>
-        <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="75715e" />
-      </value>
-    </option>
     <option name="PHP_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="66d9ef" />
@@ -577,17 +528,6 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
-    <option name="SASS_MIXIN">
-      <value>
-        <option name="FOREGROUND" value="ff9933" />
-      </value>
-    </option>
-    <option name="SASS_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="ff9933" />
-      </value>
-    </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="272822" />
@@ -615,17 +555,11 @@
         <option name="ERROR_STRIPE_COLOR" value="99cc33" />
       </value>
     </option>
-    <option name="TEXT_STYLE_ERROR">
-      <value>
-        <option name="EFFECT_COLOR" value="ff2672" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b55e00" />
+        <option name="FOREGROUND" value="ba5d00" />
         <option name="FONT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="66d9ef" />
+        <option name="ERROR_STRIPE_COLOR" value="977ab" />
       </value>
     </option>
     <option name="TYPO">
@@ -634,23 +568,11 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="UNMATCHED_BRACE_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ff2672" />
-      </value>
-    </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="fd9721" />
         <option name="ERROR_STRIPE_COLOR" value="fd9721" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="40332b" />
-        <option name="ERROR_STRIPE_COLOR" value="ff2672" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
@@ -689,11 +611,6 @@
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="e80e5e" />
-      </value>
-    </option>
-    <option name="YAML_ANCHOR">
-      <value>
-        <option name="FOREGROUND" value="ff9933" />
       </value>
     </option>
   </attributes>

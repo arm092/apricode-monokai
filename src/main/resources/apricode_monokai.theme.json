@@ -5,39 +5,16 @@
   "editorScheme": "/apricode_monokai.xml",
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "#66D9EF",
-      "Actions.Red": "#FF2672",
-      "Actions.Yellow": "#FF9933",
-      "Actions.Green": "#99CC33",
-      "Actions.Grey": "#75715E",
-      "Objects.Blue": "#66D9EF",
-      "Objects.Red": "#FF9933",
-      "Objects.Yellow": "#FF9933",
-      "Objects.Purple": "#FF2672",
-      "Objects.Pink": "#FF2672",
-      "Objects.Grey": "#F8F8F2",
-      "Objects.BlackText": "#272822",
-      "Objects.Green": "#99CC33",
-      "Actions.GreyInline": "#75715E",
-      "Objects.RedStatus": "#FF2672",
-      "Objects.YellowDark": "#FF9933"
+      "Actions.Blue": "#66d9ef",
+      "Actions.Green": "#99cc33",
+      "Actions.Red": "#e80e5e",
+      "Actions.Yellow": "#fd9721"
     }
   },
   "colors": {
     "basicBackground": "#272822"
   },
   "ui": {
-    "Panel.background": "basicBackground",
-    "DefaultTabs.underlineColor": "#66D9EF",
-    "Menu.background": "basicBackground",
-    "Notification.errorBorderColor": "#FF2672",
-    "Menu.foreground": "#F8F8F2",
-    "Borders.color": "#75715E",
-    "DefaultTabs.background": "basicBackground",
-    "SidePanel.background": "basicBackground",
-    "Editor.background": "basicBackground",
-    "EditorPane.background": "basicBackground",
-    "EditorTabs.background": "basicBackground",
-    "Tree.background": "basicBackground"
+    "Panel.background": "basicBackground"
   }
 }
