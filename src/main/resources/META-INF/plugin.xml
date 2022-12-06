@@ -1,28 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.arm092.apricodemonokai</id>
-    <name>Apricode Monokai</name>
-    <version>1.1.2</version>
-    <!-- Compatible with the following versions of IntelliJ Platform: version 2023.1 and newer. -->
-<!--    <idea-version since-build="2023.1"/>-->
-    <vendor email="support@apricode.am" url="https://web.apricode.am">Apricode Team</vendor>
+    <id>org.jetbrains.plugins.template</id>
+    <name>IntelliJ Platform Plugin Template</name>
+    <vendor>JetBrains</vendor>
 
-    <!-- Indicate this plugin can be loaded in all IntelliJ Platform-based products. -->
     <depends>com.intellij.modules.platform</depends>
-    <description>
-        <![CDATA[
-      Monokai theme with Apricode brand colors
-    ]]>
-    </description>
-    <change-notes>
-        <![CDATA[
-      <ul>
-        <li><b>1.1.2</b> Added: Support for 2023.1 version of IDE</li>
-      </ul>
-    ]]>
-    </change-notes>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="7b938e48-d41e-47b2-ac7f-e1641a0c99cd" path="/apricode_monokai.theme.json"/>
+        <applicationService serviceImplementation="org.jetbrains.plugins.template.services.MyApplicationService"/>
+        <projectService serviceImplementation="org.jetbrains.plugins.template.services.MyProjectService"/>
     </extensions>
+
+    <applicationListeners>
+        <listener class="org.jetbrains.plugins.template.listeners.MyProjectManagerListener"
+                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
+    </applicationListeners>
 </idea-plugin>

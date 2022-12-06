@@ -1,1 +1,1 @@
-rootProject.name = "apricode-monokai"
+rootProject.name = "IntelliJ Platform Plugin Template"
