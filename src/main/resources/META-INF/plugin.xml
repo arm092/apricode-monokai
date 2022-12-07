@@ -2,21 +2,34 @@
 <idea-plugin>
     <id>com.github.arm092.apricodemonokai</id>
     <name>Apricode Monokai</name>
-    <vendor>arm092</vendor>
-    <description>Applies monokai and Apricode Team brand colors to the editor</description>
+    <version>1.1.0</version>
+    <!-- Compatible with the following versions of IntelliJ Platform: version 2022.1 and newer. -->
+    <idea-version since-build="2022.1"/>
+    <vendor url="https://web.apricode.am">Apricode Team</vendor>
+
+    <!-- Indicate this plugin can be loaded in all IntelliJ Platform-based products. -->
     <depends>com.intellij.modules.platform</depends>
+    <description>
+        <![CDATA[
+      Monokai theme with Apricode brand colors
+    ]]>
+    </description>
+    <change-notes>
+        <![CDATA[
+      <ul>
+        <li><b>1.1.0</b> Added support for IDE 2022.3.</li>
+      </ul>
+    ]]>
+    </change-notes>
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.arm092.apricodemonokai.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.arm092.apricodemonokai.services.MyProjectService"/>
         <themeProvider id="7b938e48-d41e-47b2-ac7f-e1641a0c99cd" path="/apricode_monokai.theme.json"/>
-        <themeMetadataProvider path="/META-INF/ApricodeMonokai.themeMetadata.json"/>
     </extensions>
 
     <applicationListeners>
         <listener class="com.github.arm092.apricodemonokai.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
-    <change-notes>Updated injected language color.</change-notes>
-    <version>1.0.1</version>
 </idea-plugin>
