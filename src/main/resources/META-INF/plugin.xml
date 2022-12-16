@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>com.github.arm092.apricodemonokai</id>
     <name>Apricode Monokai</name>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <!-- Compatible with the following versions of IntelliJ Platform: version 2022.1 and newer. -->
     <idea-version since-build="2022.1"/>
     <vendor url="https://web.apricode.am">Apricode Team</vendor>
@@ -17,7 +17,7 @@
     <change-notes>
         <![CDATA[
       <ul>
-        <li><b>1.1.0</b> Added support for IDE 2022.3.</li>
+        <li><b>1.1.1</b> Updated some colors: see Changelog</li>
       </ul>
     ]]>
     </change-notes>

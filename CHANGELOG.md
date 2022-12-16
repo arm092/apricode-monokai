@@ -2,6 +2,14 @@
 
 # Apricode Monokai Changelog
 
+## [1.1.1]
+
+### Updated
+- Injected language color
+- Blade interpolation parentheses color
+- Version control colors
+- Folders icon color in the left panel tree
+
 ## [1.1.0]
 
 ### Added

@@ -15,7 +15,7 @@
       "Objects.Yellow": "#FF9933",
       "Objects.Purple": "#FF2672",
       "Objects.Pink": "#FF2672",
-      "Objects.Grey": "#75715E",
+      "Objects.Grey": "#F8F8F2",
       "Objects.BlackText": "#272822",
       "Objects.Green": "#99CC33",
       "Actions.GreyInline": "#75715E",
@@ -31,6 +31,13 @@
     "DefaultTabs.underlineColor": "#66D9EF",
     "Menu.background": "basicBackground",
     "Notification.errorBorderColor": "#FF2672",
-    "Menu.foreground": "#F8F8F2"
+    "Menu.foreground": "#F8F8F2",
+    "Borders.color": "#75715E",
+    "DefaultTabs.background": "basicBackground",
+    "SidePanel.background": "basicBackground",
+    "Editor.background": "basicBackground",
+    "EditorPane.background": "basicBackground",
+    "EditorTabs.background": "basicBackground",
+    "Tree.background": "basicBackground"
   }
 }

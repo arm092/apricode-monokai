@@ -32,6 +32,7 @@
     <option name="DOC_COMMENT_LINK" value="66d9ef" />
     <option name="ERROR_HINT" value="e80e5e" />
     <option name="FILESTATUS_COPIED" value="a9dc76" />
+    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="99cc33" />
     <option name="INFORMATION_HINT" value="88846f" />
     <option name="LINE_NUMBERS_COLOR" value="75715e" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="75715e" />
@@ -51,7 +52,7 @@
     </option>
     <option name="BLADE_TEXT_BLOCK_BOUNDARY">
       <value>
-        <option name="FOREGROUND" value="ff9933" />
+        <option name="FOREGROUND" value="66d9ef" />
       </value>
     </option>
     <option name="BOOKMARKS_ATTRIBUTES">
@@ -442,8 +443,9 @@
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
-        <option name="FOREGROUND" value="2c8091" />
         <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="75715e" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="INLAY_DEFAULT">

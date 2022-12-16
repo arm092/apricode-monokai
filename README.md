@@ -1,6 +1,6 @@
 # apricode-monokai
 
-![Build](https://github.com/arm092/apricode-monokai/workflows/Build/badge.svg)
+[//]: # (![Build]&#40;https://github.com/arm092/apricode-monokai/workflows/Build/badge.svg&#41;)
 [![Version](https://img.shields.io/jetbrains/plugin/v/com.github.arm092.apricodemonokai.svg)](https://plugins.jetbrains.com/plugin/com.github.arm092.apricodemonokai)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/com.github.arm092.apricodemonokai.svg)](https://plugins.jetbrains.com/plugin/com.github.arm092.apricodemonokai)
 
