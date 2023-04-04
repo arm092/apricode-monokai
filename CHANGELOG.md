@@ -2,6 +2,11 @@
 
 # Apricode Monokai Changelog
 
+## [1.1.2]
+
+### Added
+- Support for 2023.1 version of IDE
+
 ## [1.1.1]
 
 ### Updated
