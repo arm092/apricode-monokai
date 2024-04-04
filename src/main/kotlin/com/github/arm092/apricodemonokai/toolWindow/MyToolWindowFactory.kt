@@ -1,4 +1,4 @@
-package com.github.arm092.newapricodemonokai.toolWindow
+package com.github.arm092.apricodemonokai.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.arm092.newapricodemonokai.MyBundle
-import com.github.arm092.newapricodemonokai.services.MyProjectService
+import com.github.arm092.apricodemonokai.MyBundle
+import com.github.arm092.apricodemonokai.services.MyProjectService
 import javax.swing.JButton
 
 

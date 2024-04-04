@@ -6,6 +6,7 @@
   "icons": {
     "/actions/compile.svg": "/factory.svg",
     "/actions/execute.svg": "/run.svg",
+    "/actions/startDebugger.svg": "/debug.svg",
     "ColorPalette": {
       "Actions.Blue": "#66D9EF",
       "Actions.Red": "#FF2672",

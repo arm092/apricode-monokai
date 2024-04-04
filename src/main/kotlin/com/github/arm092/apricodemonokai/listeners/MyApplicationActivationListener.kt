@@ -1,8 +1,9 @@
-package com.github.arm092.newapricodemonokai.listeners
+package com.github.arm092.apricodemonokai.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.wm.IdeFrame
+import com.intellij.openapi.project.ProjectManagerListener
 
 internal class MyApplicationActivationListener : ApplicationActivationListener {
 

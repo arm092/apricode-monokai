@@ -1,4 +1,4 @@
-package com.github.arm092.newapricodemonokai
+package com.github.arm092.apricodemonokai
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

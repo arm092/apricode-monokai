@@ -2,7 +2,18 @@
 
 # apricode-monokai Changelog
 
-## [Unreleased]
+## [1.1.5]
+
+### Fixed
+
+- Internal problem
+
+## [1.1.4]
+
+### Added
+
+- Support for IntelliJ Platform IDE 2024.1
+
 
 ## [1.1.3]
 
@@ -45,7 +56,6 @@
 
 - First Release
 
-[Unreleased]: https://github.com/arm092/apricode-monokai/compare/v1.1.3...HEAD
 [1.1.3]: https://github.com/arm092/apricode-monokai/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/arm092/apricode-monokai/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/arm092/apricode-monokai/compare/v1.1.0...v1.1.1

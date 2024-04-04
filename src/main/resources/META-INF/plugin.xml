@@ -8,7 +8,7 @@
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
-    <version>1.1.3</version>
+    <version>1.1.5</version>
     <!-- Compatible with the following versions of IntelliJ Platform: version 2022.1 and newer. -->
     <idea-version since-build="2022.1"/>
 
@@ -22,19 +22,19 @@
     <change-notes>
         <![CDATA[
       <ul>
-        <li><b>1.1.3</b> Added support for IDE 2023.3.</li>
+        <li><b>1.1.5</b> Fixed internal problem</li>
       </ul>
     ]]>
     </change-notes>
 
     <extensions defaultExtensionNs="com.intellij">
-        <projectService serviceImplementation="com.github.arm092.apricodemonokai.services.MyProjectService"/>
+<!--        <projectService serviceImplementation="com.github.arm092.apricodemonokai.services.MyProjectService"/>-->
         <themeProvider id="7b938e48-d41e-47b2-ac7f-e1641a0c99cd" path="/apricode_monokai.theme.json"/>
-        <toolWindow factoryClass="org.jetbrains.plugins.template.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.github.arm092.apricodemonokai.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
     </extensions>
 
     <applicationListeners>
         <listener class="com.github.arm092.apricodemonokai.listeners.MyApplicationActivationListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
+                  topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
 </idea-plugin>
