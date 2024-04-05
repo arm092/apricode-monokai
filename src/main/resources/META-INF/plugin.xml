@@ -8,23 +8,17 @@
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
-    <version>1.1.5</version>
+    <version>1.2.0</version>
     <!-- Compatible with the following versions of IntelliJ Platform: version 2022.1 and newer. -->
     <idea-version since-build="2022.1"/>
 
-    <!-- Indicate this plugin can be loaded in all IntelliJ Platform-based products. -->
-    <depends>com.intellij.modules.platform</depends>
     <description>
         <![CDATA[
       Monokai theme with Apricode brand colors
     ]]>
     </description>
     <change-notes>
-        <![CDATA[
-      <ul>
-        <li><b>1.1.5</b> Fixed internal problem</li>
-      </ul>
-    ]]>
+        <![CDATA[]]>
     </change-notes>
 
     <extensions defaultExtensionNs="com.intellij">

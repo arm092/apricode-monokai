@@ -2,6 +2,13 @@
 
 # apricode-monokai Changelog
 
+## [1.2.0]
+
+### Fixed
+
+- Colors problem
+- Icons size problem
+
 ## [1.1.5]
 
 ### Fixed
