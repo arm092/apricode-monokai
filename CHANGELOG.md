@@ -2,6 +2,18 @@
 
 # apricode-monokai Changelog
 
+## [1.2.2]
+
+### Added
+
+- Support for new versions of IDE
+
+## [1.2.1]
+
+### Added
+
+- Support for new versions of IDE
+
 ## [1.2.0]
 
 ### Fixed

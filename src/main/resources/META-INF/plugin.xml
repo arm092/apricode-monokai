@@ -8,7 +8,7 @@
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
-    <version>1.2.0</version>
+    <version>1.2.2</version>
     <!-- Compatible with the following versions of IntelliJ Platform: version 2022.1 and newer. -->
     <idea-version since-build="2022.1"/>
 
@@ -18,7 +18,7 @@
     ]]>
     </description>
     <change-notes>
-        <![CDATA[]]>
+        <![CDATA[ Added support for new versions of IDE ]]>
     </change-notes>
 
     <extensions defaultExtensionNs="com.intellij">
