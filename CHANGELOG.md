@@ -1,84 +1,82 @@
-<!-- Keep a Changelog guide -> https://keepachangelog.com -->
+# Changelog
 
-# apricode-monokai Changelog
+## [Unreleased]
 
-## [1.2.2]
-
-### Added
-
-- Support for new versions of IDE
-
-## [1.2.1]
+## [2.0.0] - 2026-09-13
 
 ### Added
 
-- Support for new versions of IDE
+- Dedicated highlighting for current Go language color keys.
+- Accessible semantic colors for banners, notifications, Git states, diffs, and breakpoints.
+- Automated compatibility verification for the first and last supported IntelliJ Platform branches.
 
-## [1.2.0]
+### Changed
+
+- Updated the Apricode palette to the current brand green, pink, cyan, and orange colors.
+- Migrated the build to IntelliJ Platform Gradle Plugin 2.x and Gradle 9.7.1.
+- Cleaned and normalized the Apricode Build, Run, and Debug icons.
+- Replaced template documentation and Marketplace copy with Apricode Monokai documentation.
+
+### Removed
+
+- Removed the unused JetBrains template tool window, listeners, services, tests, and Kotlin runtime.
+- Removed the deprecated `DynamicBundle(String)` API usage.
+- Removed obsolete Qodana, Kover, and UI test robot configuration.
+
+## [1.2.2] - 2024-09-19
+
+### Added
+
+- Support for new IDE versions.
+
+## [1.2.1] - 2024-09-03
+
+### Added
+
+- Support for new IDE versions.
+
+## [1.2.0] - 2024-04-05
 
 ### Fixed
 
-- Colors problem
-- Icons size problem
+- Color and icon sizing issues.
 
-## [1.1.5]
-
-### Fixed
-
-- Internal problem
-
-## [1.1.4]
+## [1.1.4] - 2024-03-28
 
 ### Added
 
-- Support for IntelliJ Platform IDE 2024.1
+- Support for IntelliJ Platform 2024.1.
 
-
-## [1.1.3]
-
-### Added
-
-- Support for IntelliJ Platform IDE 2023.3
-
-## [1.1.2]
+## [1.1.3] - 2023-12-07
 
 ### Added
 
-- Support for intelliJ Platform IDE 2023.1
+- Support for IntelliJ Platform 2023.3.
 
-## [1.1.1]
-
-### Updated
-
-- Injected language color
-- Blade interpolation parentheses color
-
-## [1.1.0]
+## [1.1.2] - 2023-04-05
 
 ### Added
 
-- Support for IntelliJ Platform IDE 2022.3
+- Support for IntelliJ Platform 2023.1.
 
-## [1.0.3]
+## [1.1.1] - 2022-12-16
 
-### Fixed
+### Changed
 
-- Color scheme version problem
+- Updated injected language and Blade interpolation highlighting.
 
-## [1.0.1]
+## [1.1.0] - 2022-12-07
 
-### Updated
+### Added
 
-- Injected language colors
+- Support for IntelliJ Platform 2022.3.
 
-## [1.0.0]
+## [1.0.0] - 2021-11-28
 
-- First Release
+- Initial release.
 
-[1.1.3]: https://github.com/arm092/apricode-monokai/compare/v1.1.2...v1.1.3
-[1.1.2]: https://github.com/arm092/apricode-monokai/compare/v1.1.1...v1.1.2
-[1.1.1]: https://github.com/arm092/apricode-monokai/compare/v1.1.0...v1.1.1
-[1.1.0]: https://github.com/arm092/apricode-monokai/compare/v1.0.3...v1.1.0
-[1.0.3]: https://github.com/arm092/apricode-monokai/compare/v1.0.1...v1.0.3
-[1.0.1]: https://github.com/arm092/apricode-monokai/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/arm092/apricode-monokai/commits/v1.0.0
+[Unreleased]: https://github.com/arm092/apricode-monokai/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/arm092/apricode-monokai/compare/1.1.1...v2.0.0
+[1.2.2]: https://github.com/arm092/apricode-monokai/compare/1.2.1...1.2.2
+[1.2.1]: https://github.com/arm092/apricode-monokai/compare/1.2.0...1.2.1
+[1.2.0]: https://github.com/arm092/apricode-monokai/compare/1.1.4...1.2.0
