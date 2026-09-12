@@ -1,4 +1,5 @@
 import org.jetbrains.intellij.platform.gradle.IntelliJPlatformType
+import org.jetbrains.intellij.platform.gradle.models.ProductRelease
 import org.jetbrains.intellij.platform.gradle.tasks.VerifyPluginTask
 
 fun property(name: String) = providers.gradleProperty(name)
@@ -22,6 +23,7 @@ dependencies {
 
 intellijPlatform {
     buildSearchableOptions.set(false)
+    instrumentCode.set(false)
 
     pluginConfiguration {
         id.set(property("pluginGroup"))
@@ -42,17 +44,19 @@ intellijPlatform {
         changeNotes.set(
             """
             <ul>
-              <li>Added complete highlighting for current Go language color keys.</li>
-              <li>Improved contrast for Git, diff, breakpoint, banner, and notification states.</li>
-              <li>Updated Apricode colors and custom action icons.</li>
-              <li>Removed deprecated and unused template code.</li>
+              <li>Added support for IntelliJ Platform 2026.2 and newer.</li>
+              <li>Switched release builds to Java 25.</li>
+              <li>Removed the upper IDE build limit.</li>
             </ul>
             """.trimIndent(),
         )
 
         ideaVersion {
             sinceBuild.set(property("pluginSinceBuild"))
-            untilBuild.set(property("pluginUntilBuild"))
+            property("pluginUntilBuild").orNull
+                ?.takeIf(String::isNotBlank)
+                ?.let(untilBuild::set)
+                ?: untilBuild.set(provider { null })
         }
 
         vendor {
@@ -89,6 +93,17 @@ intellijPlatform {
                 .map(String::trim)
                 .filter(String::isNotEmpty)
                 .forEach { create(IntelliJPlatformType.IntellijIdea, it) }
+
+            property("pluginVerifierEapBuild").orNull
+                ?.takeIf(String::isNotBlank)
+                ?.let { buildBranch ->
+                    select {
+                        types = listOf(IntelliJPlatformType.IntellijIdea)
+                        channels = listOf(ProductRelease.Channel.EAP)
+                        sinceBuild = buildBranch
+                        untilBuild = "$buildBranch.*"
+                    }
+                }
         }
     }
 

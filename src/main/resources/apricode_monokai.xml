@@ -8,7 +8,7 @@
     <property name="vendorMail">support@apricode.am</property>
     <property name="vendorName">Apricode</property>
     <property name="vendorUrl">https://apricode.am</property>
-    <property name="version">2.0.0</property>
+    <property name="version">3.0.0</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <font>
