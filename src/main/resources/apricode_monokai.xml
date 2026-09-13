@@ -31,17 +31,17 @@
     <option name="ADDED_LINES_COLOR" value="A6E22E" />
     <option name="ANNOTATIONS_COLOR" value="88846f" />
     <option name="CARET_COLOR" value="f8f8f2" />
-    <option name="DOC_COMMENT_GUIDE" value="669933" />
+    <option name="DOC_COMMENT_GUIDE" value="669014" />
     <option name="DOC_COMMENT_LINK" value="66d9ef" />
     <option name="EDITOR_GUTTER_BACKGROUND" value="3c3f41" />
     <option name="ERROR_HINT" value="F92672" />
-    <option name="FILESTATUS_COPIED" value="a9dc76" />
+    <option name="FILESTATUS_COPIED" value="A6E22E" />
     <option name="GUTTER_BACKGROUND" value="272822" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="A6E22E" />
     <option name="INFORMATION_HINT" value="88846f" />
-    <option name="LINE_NUMBERS_COLOR" value="75715e" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="75715e" />
-    <option name="METHOD_SEPARATORS_COLOR" value="75715e" />
+    <option name="LINE_NUMBERS_COLOR" value="88846F" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="88846F" />
+    <option name="METHOD_SEPARATORS_COLOR" value="88846F" />
     <option name="MODIFIED_LINES_COLOR" value="66d9ef" />
     <option name="NOTIFICATION_BACKGROUND" value="326A75" />
     <option name="RECENT_LOCATIONS_SELECTION" value="272822" />
@@ -69,7 +69,7 @@
     <option name="BREADCRUMBS_HOVERED">
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="75715e" />
+        <option name="BACKGROUND" value="3C3F41" />
       </value>
     </option>
     <option name="BREADCRUMBS_INACTIVE">
@@ -170,7 +170,7 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="b55e00" />
+        <option name="FOREGROUND" value="B66202" />
         <option name="EFFECT_COLOR" value="66d9ef" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -216,7 +216,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="787360" />
+        <option name="FOREGROUND" value="88846F" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -242,7 +242,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="787360" />
+        <option name="FOREGROUND" value="88846F" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -298,7 +298,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="669933" />
+        <option name="FOREGROUND" value="669014" />
         <option name="EFFECT_COLOR" value="F92672" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -315,7 +315,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="75715e" />
+        <option name="FOREGROUND" value="88846F" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -382,11 +382,23 @@
     <option name="GO_BUILD_OPERATOR" baseAttributes="DEFAULT_STRING" />
     <option name="GO_BUILD_PAREN" baseAttributes="DEFAULT_STRING" />
     <option name="GO_BUILD_TAG" baseAttributes="DEFAULT_STRING" />
-    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_BUILTIN_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="B66202" />
+      </value>
+    </option>
     <option name="GO_BUILTIN_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-    <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="GO_BUILTIN_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="F92672" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="B66202" />
+      </value>
+    </option>
     <option name="GO_COLON" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="GO_COMMA" baseAttributes="DEFAULT_COMMA" />
     <option name="GO_COMMENT_KEYWORD" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
@@ -394,8 +406,16 @@
     <option name="GO_DOT" baseAttributes="DEFAULT_DOT" />
     <option name="GO_EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-    <option name="GO_EXPORTED_INTERFACE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-    <option name="GO_EXPORTED_STRUCT_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_EXPORTED_INTERFACE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="F92672" />
+      </value>
+    </option>
+    <option name="GO_EXPORTED_STRUCT_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="669014" />
+      </value>
+    </option>
     <option name="GO_FUNCTION_PARAMETER">
       <value>
         <option name="FOREGROUND" value="FD971F" />
@@ -409,8 +429,16 @@
     <option name="GO_LOCAL_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="GO_LOCAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-    <option name="GO_LOCAL_INTERFACE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-    <option name="GO_LOCAL_STRUCT_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_LOCAL_INTERFACE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="F92672" />
+      </value>
+    </option>
+    <option name="GO_LOCAL_STRUCT_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="669014" />
+      </value>
+    </option>
     <option name="GO_LOCAL_VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="GO_LOCAL_VARIABLE_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_METHOD_RECEIVER">
@@ -422,24 +450,40 @@
     <option name="GO_OPERATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="66D9EF" />
+        <option name="FOREGROUND" value="128DA5" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
-    <option name="GO_PACKAGE_EXPORTED_INTERFACE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-    <option name="GO_PACKAGE_EXPORTED_STRUCT" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_PACKAGE_EXPORTED_INTERFACE">
+      <value>
+        <option name="FOREGROUND" value="F92672" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE_EXPORTED_STRUCT">
+      <value>
+        <option name="FOREGROUND" value="669014" />
+      </value>
+    </option>
     <option name="GO_PACKAGE_EXPORTED_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="GO_PACKAGE_EXPORTED_VARIABLE_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_PACKAGE_LOCAL_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
-    <option name="GO_PACKAGE_LOCAL_INTERFACE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-    <option name="GO_PACKAGE_LOCAL_STRUCT" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_PACKAGE_LOCAL_INTERFACE">
+      <value>
+        <option name="FOREGROUND" value="F92672" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE_LOCAL_STRUCT">
+      <value>
+        <option name="FOREGROUND" value="669014" />
+      </value>
+    </option>
     <option name="GO_PACKAGE_LOCAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="GO_PACKAGE_LOCAL_VARIABLE_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_PARENTHESES" baseAttributes="DEFAULT_PARENTHS" />
     <option name="GO_REASSIGNMENT_IN_SHORT_VAR_DECLARATION" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="GO_SCOPE_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="FD971F" />
+        <option name="FOREGROUND" value="EAEAD7" />
       </value>
     </option>
     <option name="GO_SEMICOLON" baseAttributes="DEFAULT_SEMICOLON" />
@@ -453,8 +497,16 @@
     <option name="GO_TAG_KEY" baseAttributes="DEFAULT_METADATA" />
     <option name="GO_TAG_TEXT" baseAttributes="DEFAULT_METADATA" />
     <option name="GO_TAG_VALUE" baseAttributes="DEFAULT_STRING" />
-    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-    <option name="GO_TYPE_SPECIFICATION" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="F92672" />
+      </value>
+    </option>
+    <option name="GO_TYPE_SPECIFICATION">
+      <value>
+        <option name="FOREGROUND" value="F92672" />
+      </value>
+    </option>
     <option name="GO_VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="GO_TEMPLATE_BACKGROUND" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="GO_TEMPLATE_BAD_TOKEN" baseAttributes="BAD_CHARACTER" />
@@ -507,7 +559,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="787360" />
+        <option name="FOREGROUND" value="88846F" />
         <option name="EFFECT_COLOR" value="88846f" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -522,7 +574,7 @@
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
         <option name="EFFECT_COLOR" value="FD971F" />
-        <option name="ERROR_STRIPE_COLOR" value="ba5d00" />
+        <option name="ERROR_STRIPE_COLOR" value="B66202" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -568,7 +620,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="344134" />
+        <option name="BACKGROUND" value="326A75" />
         <option name="ERROR_STRIPE_COLOR" value="A6E22E" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -576,7 +628,7 @@
     <option name="IGNORE.SYNTAX">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
-        <option name="BACKGROUND" value="4a4a4a" />
+        <option name="BACKGROUND" value="3C3F41" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -601,14 +653,14 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="75715e" />
+        <option name="EFFECT_COLOR" value="88846F" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="INLAY_DEFAULT">
       <value>
         <option name="FOREGROUND" value="88846f" />
-        <option name="BACKGROUND" value="787360" />
+        <option name="BACKGROUND" value="3C3F41" />
       </value>
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
@@ -619,19 +671,19 @@
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="88846f" />
-        <option name="BACKGROUND" value="787360" />
+        <option name="BACKGROUND" value="3C3F41" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
         <option name="FOREGROUND" value="88846f" />
-        <option name="BACKGROUND" value="305d78" />
+        <option name="BACKGROUND" value="326A75" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
-        <option name="FOREGROUND" value="acacac" />
-        <option name="BACKGROUND" value="787360" />
+        <option name="FOREGROUND" value="F8F8F2" />
+        <option name="BACKGROUND" value="3C3F41" />
       </value>
     </option>
     <option name="JS.DOC_TYPE">
@@ -647,7 +699,7 @@
     </option>
     <option name="JS.REGEXP">
       <value>
-        <option name="FOREGROUND" value="2c8091" />
+        <option name="FOREGROUND" value="128DA5" />
       </value>
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
@@ -674,7 +726,7 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="FD971F" />
-        <option name="BACKGROUND" value="3b514d" />
+        <option name="BACKGROUND" value="326A75" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -693,7 +745,7 @@
     <option name="PHP_EXEC_COMMAND_ID">
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="75715e" />
+        <option name="BACKGROUND" value="3C3F41" />
       </value>
     </option>
     <option name="PHP_IDENTIFIER">
@@ -708,7 +760,7 @@
     </option>
     <option name="PHP_NAMED_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="2c8091" />
+        <option name="FOREGROUND" value="128DA5" />
       </value>
     </option>
     <option name="PHP_PARAMETER">
@@ -747,9 +799,9 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="272822" />
-        <option name="BACKGROUND" value="A6E22E" />
-        <option name="ERROR_STRIPE_COLOR" value="669933" />
+        <option name="FOREGROUND" value="F8F8F2" />
+        <option name="BACKGROUND" value="326A75" />
+        <option name="ERROR_STRIPE_COLOR" value="128DA5" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
@@ -759,7 +811,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="eeeeee" />
+        <option name="FOREGROUND" value="F8F8F2" />
         <option name="BACKGROUND" value="272822" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -767,9 +819,9 @@
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="669933" />
-        <option name="EFFECT_COLOR" value="A6E22E" />
-        <option name="ERROR_STRIPE_COLOR" value="A6E22E" />
+        <option name="BACKGROUND" value="326A75" />
+        <option name="EFFECT_COLOR" value="128DA5" />
+        <option name="ERROR_STRIPE_COLOR" value="128DA5" />
       </value>
     </option>
     <option name="TEXT_STYLE_ERROR">
@@ -780,14 +832,14 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b55e00" />
+        <option name="FOREGROUND" value="B66202" />
         <option name="FONT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" value="66d9ef" />
       </value>
     </option>
     <option name="TYPO">
       <value>
-        <option name="EFFECT_COLOR" value="669933" />
+        <option name="EFFECT_COLOR" value="669014" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -805,7 +857,7 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="40332b" />
+        <option name="BACKGROUND" value="3C3F41" />
         <option name="ERROR_STRIPE_COLOR" value="F92672" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -814,7 +866,7 @@
       <value>
         <option name="FOREGROUND" value="F8F8F2" />
         <option name="BACKGROUND" value="7A1338" />
-        <option name="ERROR_STRIPE_COLOR" value="8d4457" />
+        <option name="ERROR_STRIPE_COLOR" value="F92672" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
@@ -825,7 +877,7 @@
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="2c8091" />
+        <option name="FOREGROUND" value="128DA5" />
       </value>
     </option>
     <option name="XML_NS_PREFIX">

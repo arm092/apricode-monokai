@@ -4,7 +4,9 @@
 
 ### Fixed
 
-- Restored distinct Go colors for imported packages, scoped variables, parameters, receivers, and callable values.
+- Restored distinct Go colors for packages, scoped variables, methods, structs, built-ins, types, receivers, and callable values.
+- Replaced the low-contrast green search-result background with a readable dark cyan state.
+- Consolidated duplicate gray, green, orange, cyan, and UI-state shades.
 
 ## [3.0.0] - 2026-09-13
 
