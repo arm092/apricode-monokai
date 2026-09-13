@@ -21,7 +21,11 @@
       "Objects.Purple": "#C256F1",
       "Objects.Pink": "#F92672",
       "Objects.Grey": "#818471",
-      "Objects.BlackText": "#272822"
+      "Objects.BlackText": "#272822",
+      "Checkbox.Background.Selected": "#FD971F",
+      "Checkbox.Border.Selected": "#FD971F",
+      "Checkbox.Foreground.Selected": "#272822",
+      "Checkbox.Focus.Wide": "#B66202"
     }
   },
   "colors": {
@@ -31,6 +35,12 @@
     "tool-window-bg": "#272822",
     "tool-window-bg-inline": "#272822",
     "tool-window-bg-alt": "#272822",
+    "text-over-accent": "#272822",
+    "icon-over-accent": "#272822",
+    "accent-brand-bg": "#FD971F",
+    "accent-brand-border": "#FD971F",
+    "accent-brand-bg-secondary": "#B66202",
+    "accent-brand-border-secondary": "#B66202",
     "popup-bg": "#36372FE6",
     "popup-bg-inline": "#36372FE6",
     "popup-border": "#151613",
@@ -126,6 +136,10 @@
     "Borders.color": "#818471",
     "Borders.ContrastBorderColor": "#818471",
     "Separator.separatorColor": "#818471",
+    "ToolTip.background": "#36372F",
+    "ToolTip.borderColor": "#151613",
+    "Editor.ToolTip.background": "#36372F",
+    "Editor.ToolTip.border": "#151613",
     "Menu.background": "#36372FE6",
     "Menu.borderColor": "#151613",
     "MenuItem.background": "#36372FE6",

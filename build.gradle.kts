@@ -44,9 +44,9 @@ intellijPlatform {
         changeNotes.set(
             """
             <ul>
-              <li>Adopted the IntelliJ Platform Islands layout with Apricode surfaces, tabs, rounded corners, and frame gradient.</li>
-              <li>Expanded Go highlighting for packages, variable scopes, methods, structs, built-ins, types, receivers, and callable values.</li>
-              <li>Improved contrast for search results, notifications, banners, dialogs, separators, Git states, and deleted text.</li>
+              <li>Replaced the Islands blue brand accent with Apricode orange across primary controls and focus states.</li>
+              <li>Updated selected checkboxes and radio buttons to use the Apricode orange accent.</li>
+              <li>Restyled hover tooltips with the Apricode dark popup surface and border.</li>
             </ul>
             """.trimIndent(),
         )

@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [3.0.2] - 2026-09-14
+
+### Changed
+
+- Replaced the Islands blue brand accent with Apricode orange for primary controls, checkboxes, radio buttons, focus states, and progress indicators.
+- Changed hover tooltip backgrounds to `#36372F` with `#151613` borders.
+
 ## [3.0.1] - 2026-09-13
 
 ### Added
@@ -105,7 +112,8 @@
 
 - Initial release.
 
-[Unreleased]: https://github.com/arm092/apricode-monokai/compare/v3.0.1...HEAD
+[Unreleased]: https://github.com/arm092/apricode-monokai/compare/v3.0.2...HEAD
+[3.0.2]: https://github.com/arm092/apricode-monokai/compare/v3.0.1...v3.0.2
 [3.0.1]: https://github.com/arm092/apricode-monokai/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/arm092/apricode-monokai/compare/v2.0.0...v3.0.0
 [2.0.0]: https://github.com/arm092/apricode-monokai/compare/1.1.1...v2.0.0
