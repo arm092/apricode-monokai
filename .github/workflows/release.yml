@@ -26,8 +26,18 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v6
 
+      - name: Configure resource-only build
+        shell: bash
+        run: |
+          printf '%s\n' \
+            'allprojects {' \
+            '    pluginManager.withPlugin("org.jetbrains.intellij.platform") {' \
+            '        extensions.getByName("intellijPlatform").instrumentCode.set(false)' \
+            '    }' \
+            '}' > "$RUNNER_TEMP/resource-only.gradle"
+
       - name: Verify release
-        run: ./gradlew check verifyPluginProjectConfiguration verifyPluginStructure verifyPlugin buildPlugin
+        run: ./gradlew --init-script "$RUNNER_TEMP/resource-only.gradle" check verifyPluginProjectConfiguration verifyPluginStructure verifyPlugin buildPlugin
 
       - name: Upload GitHub release asset
         env:
@@ -37,4 +47,4 @@ jobs:
       - name: Publish to JetBrains Marketplace
         env:
           PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-        run: ./gradlew publishPlugin
+        run: ./gradlew --init-script "$RUNNER_TEMP/resource-only.gradle" publishPlugin
