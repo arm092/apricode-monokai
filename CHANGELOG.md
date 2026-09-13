@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Restored distinct Go colors for imported packages, scoped variables, parameters, receivers, and callable values.
+
 ## [3.0.0] - 2026-09-13
 
 ### Changed
