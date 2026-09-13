@@ -44,9 +44,9 @@ intellijPlatform {
         changeNotes.set(
             """
             <ul>
-              <li>Replaced the Islands blue brand accent with Apricode orange across primary controls and focus states.</li>
-              <li>Updated selected checkboxes and radio buttons to use the Apricode orange accent.</li>
-              <li>Restyled hover tooltips with the Apricode dark popup surface and border.</li>
+              <li>Recolored indeterminate progress indicators with the Apricode orange gradient.</li>
+              <li>Replaced the blue memory usage gauge with an Apricode orange state.</li>
+              <li>Applied Apricode colors to toolbar badges and plugin restart actions.</li>
             </ul>
             """.trimIndent(),
         )

@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [3.0.3] - 2026-09-14
+
+### Changed
+
+- Replaced the remaining blue indeterminate progress and memory usage indicators with Apricode orange states.
+- Applied the Apricode semantic palette to toolbar notification badges and the Apricode green to plugin restart actions.
+
 ## [3.0.2] - 2026-09-14
 
 ### Changed
