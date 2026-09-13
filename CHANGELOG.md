@@ -5,11 +5,12 @@
 ### Added
 
 - Adopted the IntelliJ Platform Islands layout on 2026.2 and newer IDEs, preserving its native spacing and rounded corners.
-- Added an Apricode gray gradient from `#818471` to `#151613` for the main IDE frame.
+- Added a consistent Apricode gray gradient from `#818471` to `#151613` for the main IDE frame, independent of the project color assigned by the IDE.
 
 ### Changed
 
-- Kept the editor and tool windows at `#272822`, moved inactive tabs to `#151613`, and styled active tabs with `#36372F`.
+- Kept the editor and tool windows at `#272822`, moved tool window headers and inactive tabs to `#151613`, and styled active tabs with `#36372F`.
+- Changed popup menu backgrounds to `#36372F`.
 - Changed editor gutters and dark blue Islands states to `#404238`.
 
 ### Fixed
