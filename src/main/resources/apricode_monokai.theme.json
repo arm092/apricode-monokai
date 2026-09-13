@@ -20,8 +20,7 @@
       "Objects.Purple": "#C256F1",
       "Objects.Pink": "#F92672",
       "Objects.Grey": "#818471",
-      "Objects.BlackText": "#272822",
-      "#99CC33": "#A6E22E"
+      "Objects.BlackText": "#272822"
     }
   },
   "colors": {
@@ -43,6 +42,8 @@
     "Notification.linkForeground": "#FFD230",
     "Notification.errorBackground": "#7A1338",
     "Notification.errorForeground": "#F8F8F2",
-    "Notification.errorBorderColor": "#F92672"
+    "Notification.errorBorderColor": "#F92672",
+    "SearchMatch.startBackground": "#7A1338",
+    "SearchMatch.endBackground": "#7A1338"
   }
 }

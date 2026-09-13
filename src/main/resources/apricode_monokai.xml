@@ -413,7 +413,7 @@
     </option>
     <option name="GO_EXPORTED_STRUCT_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="669014" />
+        <option name="FOREGROUND" value="D78EF6" />
       </value>
     </option>
     <option name="GO_FUNCTION_PARAMETER">
@@ -436,7 +436,7 @@
     </option>
     <option name="GO_LOCAL_STRUCT_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="669014" />
+        <option name="FOREGROUND" value="D78EF6" />
       </value>
     </option>
     <option name="GO_LOCAL_VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -461,7 +461,7 @@
     </option>
     <option name="GO_PACKAGE_EXPORTED_STRUCT">
       <value>
-        <option name="FOREGROUND" value="669014" />
+        <option name="FOREGROUND" value="D78EF6" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
@@ -474,20 +474,20 @@
     </option>
     <option name="GO_PACKAGE_LOCAL_STRUCT">
       <value>
-        <option name="FOREGROUND" value="669014" />
+        <option name="FOREGROUND" value="D78EF6" />
       </value>
     </option>
     <option name="GO_PACKAGE_LOCAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="GO_PACKAGE_LOCAL_VARIABLE_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_PARENTHESES" baseAttributes="DEFAULT_PARENTHS" />
     <option name="GO_REASSIGNMENT_IN_SHORT_VAR_DECLARATION" baseAttributes="DEFAULT_OPERATION_SIGN" />
-    <option name="GO_SCOPE_VARIABLE">
+    <option name="GO_SCOPE_VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="GO_SEMICOLON" baseAttributes="DEFAULT_SEMICOLON" />
+    <option name="GO_SHADOWING_VARIABLE">
       <value>
         <option name="FOREGROUND" value="EAEAD7" />
       </value>
     </option>
-    <option name="GO_SEMICOLON" baseAttributes="DEFAULT_SEMICOLON" />
-    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_PARAMETER" />
     <option name="GO_STRING" baseAttributes="DEFAULT_STRING" />
     <option name="GO_STRUCT_EXPORTED_MEMBER" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_STRUCT_EXPORTED_MEMBER_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
@@ -525,9 +525,8 @@
     <option name="GO_TEMPLATE_VARIABLE" baseAttributes="DEFAULT_PARAMETER" />
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="F8F8F2" />
-        <option name="BACKGROUND" value="7A1338" />
         <option name="EFFECT_COLOR" value="F92672" />
+        <option name="ERROR_STRIPE_COLOR" value="3C3F41" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
