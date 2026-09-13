@@ -37,7 +37,7 @@
     "Banner.warningBorderColor": "#FD971F",
     "Banner.successBackground": "#669014",
     "Banner.successBorderColor": "#A6E22E",
-    "Notification.background": "#326A75",
+    "Notification.background": "#36372F",
     "Notification.foreground": "#F8F8F2",
     "Notification.linkForeground": "#FFD230",
     "Notification.errorBackground": "#7A1338",
