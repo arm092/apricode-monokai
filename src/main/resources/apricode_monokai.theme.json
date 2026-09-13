@@ -42,8 +42,6 @@
     "Notification.linkForeground": "#FFD230",
     "Notification.errorBackground": "#7A1338",
     "Notification.errorForeground": "#F8F8F2",
-    "Notification.errorBorderColor": "#F92672",
-    "SearchMatch.startBackground": "#7A1338",
-    "SearchMatch.endBackground": "#7A1338"
+    "Notification.errorBorderColor": "#F92672"
   }
 }

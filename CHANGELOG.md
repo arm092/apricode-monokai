@@ -7,7 +7,7 @@
 ### Fixed
 
 - Restored distinct Go colors for packages, shadowing variables, methods, structs, built-ins, types, receivers, and callable values.
-- Replaced low-contrast editor and Find in Files match backgrounds with readable dark states.
+- Replaced the low-contrast editor search-result background with a readable dark state.
 - Restored strikeout-only styling for deleted text.
 - Consolidated duplicate gray, green, orange, cyan, and UI-state shades.
 

@@ -450,7 +450,7 @@
     <option name="GO_OPERATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="128DA5" />
+        <option name="FOREGROUND" value="139DB9" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
@@ -485,7 +485,7 @@
     <option name="GO_SEMICOLON" baseAttributes="DEFAULT_SEMICOLON" />
     <option name="GO_SHADOWING_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="EAEAD7" />
+        <option name="FOREGROUND" value="B66202" />
       </value>
     </option>
     <option name="GO_STRING" baseAttributes="DEFAULT_STRING" />
@@ -698,7 +698,7 @@
     </option>
     <option name="JS.REGEXP">
       <value>
-        <option name="FOREGROUND" value="128DA5" />
+        <option name="FOREGROUND" value="139DB9" />
       </value>
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
@@ -759,7 +759,7 @@
     </option>
     <option name="PHP_NAMED_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="128DA5" />
+        <option name="FOREGROUND" value="139DB9" />
       </value>
     </option>
     <option name="PHP_PARAMETER">
@@ -800,7 +800,7 @@
       <value>
         <option name="FOREGROUND" value="F8F8F2" />
         <option name="BACKGROUND" value="326A75" />
-        <option name="ERROR_STRIPE_COLOR" value="128DA5" />
+        <option name="ERROR_STRIPE_COLOR" value="139DB9" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
@@ -819,8 +819,8 @@
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
         <option name="BACKGROUND" value="326A75" />
-        <option name="EFFECT_COLOR" value="128DA5" />
-        <option name="ERROR_STRIPE_COLOR" value="128DA5" />
+        <option name="EFFECT_COLOR" value="139DB9" />
+        <option name="ERROR_STRIPE_COLOR" value="139DB9" />
       </value>
     </option>
     <option name="TEXT_STYLE_ERROR">
@@ -876,7 +876,7 @@
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="128DA5" />
+        <option name="FOREGROUND" value="139DB9" />
       </value>
     </option>
     <option name="XML_NS_PREFIX">
