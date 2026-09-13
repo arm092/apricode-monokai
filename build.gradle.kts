@@ -44,9 +44,9 @@ intellijPlatform {
         changeNotes.set(
             """
             <ul>
-              <li>Added support for IntelliJ Platform 2026.2 and newer.</li>
-              <li>Switched release builds to Java 25.</li>
-              <li>Removed the upper IDE build limit.</li>
+              <li>Adopted the IntelliJ Platform Islands layout with Apricode surfaces, tabs, rounded corners, and frame gradient.</li>
+              <li>Expanded Go highlighting for packages, variable scopes, methods, structs, built-ins, types, receivers, and callable values.</li>
+              <li>Improved contrast for search results, notifications, banners, dialogs, separators, Git states, and deleted text.</li>
             </ul>
             """.trimIndent(),
         )
