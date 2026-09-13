@@ -396,7 +396,11 @@
     <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_EXPORTED_INTERFACE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_EXPORTED_STRUCT_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-    <option name="GO_FUNCTION_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="GO_FUNCTION_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="FD971F" />
+      </value>
+    </option>
     <option name="GO_IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="GO_INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
     <option name="GO_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
@@ -408,31 +412,43 @@
     <option name="GO_LOCAL_INTERFACE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_LOCAL_STRUCT_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_LOCAL_VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="GO_LOCAL_VARIABLE_CALL" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="GO_LOCAL_VARIABLE_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_METHOD_RECEIVER">
+      <value>
+        <option name="FOREGROUND" value="C256F1" />
+      </value>
+    </option>
     <option name="GO_NUMBER" baseAttributes="DEFAULT_NUMBER" />
     <option name="GO_OPERATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
-    <option name="GO_PACKAGE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="66D9EF" />
+      </value>
+    </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="GO_PACKAGE_EXPORTED_INTERFACE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_PACKAGE_EXPORTED_STRUCT" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_PACKAGE_EXPORTED_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-    <option name="GO_PACKAGE_EXPORTED_VARIABLE_CALL" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="GO_PACKAGE_EXPORTED_VARIABLE_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_PACKAGE_LOCAL_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="GO_PACKAGE_LOCAL_INTERFACE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_PACKAGE_LOCAL_STRUCT" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_PACKAGE_LOCAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-    <option name="GO_PACKAGE_LOCAL_VARIABLE_CALL" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="GO_PACKAGE_LOCAL_VARIABLE_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_PARENTHESES" baseAttributes="DEFAULT_PARENTHS" />
     <option name="GO_REASSIGNMENT_IN_SHORT_VAR_DECLARATION" baseAttributes="DEFAULT_OPERATION_SIGN" />
-    <option name="GO_SCOPE_VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="GO_SCOPE_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="FD971F" />
+      </value>
+    </option>
     <option name="GO_SEMICOLON" baseAttributes="DEFAULT_SEMICOLON" />
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_PARAMETER" />
     <option name="GO_STRING" baseAttributes="DEFAULT_STRING" />
     <option name="GO_STRUCT_EXPORTED_MEMBER" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-    <option name="GO_STRUCT_EXPORTED_MEMBER_CALL" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_STRUCT_EXPORTED_MEMBER_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_STRUCT_LOCAL_MEMBER" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="GO_STRUCT_LOCAL_MEMBER_CALL" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="GO_STRUCT_LOCAL_MEMBER_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_TAG_COLON" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="GO_TAG_KEY" baseAttributes="DEFAULT_METADATA" />
     <option name="GO_TAG_TEXT" baseAttributes="DEFAULT_METADATA" />
