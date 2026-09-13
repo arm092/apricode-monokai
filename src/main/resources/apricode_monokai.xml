@@ -33,7 +33,7 @@
     <option name="CARET_COLOR" value="f8f8f2" />
     <option name="DOC_COMMENT_GUIDE" value="669014" />
     <option name="DOC_COMMENT_LINK" value="66d9ef" />
-    <option name="EDITOR_GUTTER_BACKGROUND" value="3c3f41" />
+    <option name="EDITOR_GUTTER_BACKGROUND" value="36372F" />
     <option name="ERROR_HINT" value="F92672" />
     <option name="FILESTATUS_COPIED" value="A6E22E" />
     <option name="GUTTER_BACKGROUND" value="272822" />
@@ -43,7 +43,7 @@
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="818471" />
     <option name="METHOD_SEPARATORS_COLOR" value="818471" />
     <option name="MODIFIED_LINES_COLOR" value="66d9ef" />
-    <option name="NOTIFICATION_BACKGROUND" value="326A75" />
+    <option name="NOTIFICATION_BACKGROUND" value="36372F" />
     <option name="RECENT_LOCATIONS_SELECTION" value="272822" />
     <option name="ScrollBar.hoverThumbColor" value="818471" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="" />
@@ -69,7 +69,7 @@
     <option name="BREADCRUMBS_HOVERED">
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="3C3F41" />
+        <option name="BACKGROUND" value="36372F" />
       </value>
     </option>
     <option name="BREADCRUMBS_INACTIVE">
@@ -450,7 +450,7 @@
     <option name="GO_OPERATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="139DB9" />
+        <option name="FOREGROUND" value="15ADCB" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
@@ -485,7 +485,7 @@
     <option name="GO_SEMICOLON" baseAttributes="DEFAULT_SEMICOLON" />
     <option name="GO_SHADOWING_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="B66202" />
+        <option name="FOREGROUND" value="D4D4AF" />
       </value>
     </option>
     <option name="GO_STRING" baseAttributes="DEFAULT_STRING" />
@@ -526,7 +526,7 @@
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="F92672" />
-        <option name="ERROR_STRIPE_COLOR" value="3C3F41" />
+        <option name="ERROR_STRIPE_COLOR" value="36372F" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -627,7 +627,7 @@
     <option name="IGNORE.SYNTAX">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
-        <option name="BACKGROUND" value="3C3F41" />
+        <option name="BACKGROUND" value="36372F" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -659,7 +659,7 @@
     <option name="INLAY_DEFAULT">
       <value>
         <option name="FOREGROUND" value="818471" />
-        <option name="BACKGROUND" value="3C3F41" />
+        <option name="BACKGROUND" value="36372F" />
       </value>
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
@@ -670,7 +670,7 @@
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="818471" />
-        <option name="BACKGROUND" value="3C3F41" />
+        <option name="BACKGROUND" value="36372F" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
@@ -682,7 +682,7 @@
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
         <option name="FOREGROUND" value="F8F8F2" />
-        <option name="BACKGROUND" value="3C3F41" />
+        <option name="BACKGROUND" value="36372F" />
       </value>
     </option>
     <option name="JS.DOC_TYPE">
@@ -698,7 +698,7 @@
     </option>
     <option name="JS.REGEXP">
       <value>
-        <option name="FOREGROUND" value="139DB9" />
+        <option name="FOREGROUND" value="15ADCB" />
       </value>
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
@@ -744,7 +744,7 @@
     <option name="PHP_EXEC_COMMAND_ID">
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="3C3F41" />
+        <option name="BACKGROUND" value="36372F" />
       </value>
     </option>
     <option name="PHP_IDENTIFIER">
@@ -759,7 +759,7 @@
     </option>
     <option name="PHP_NAMED_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="139DB9" />
+        <option name="FOREGROUND" value="15ADCB" />
       </value>
     </option>
     <option name="PHP_PARAMETER">
@@ -799,8 +799,8 @@
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="F8F8F2" />
-        <option name="BACKGROUND" value="326A75" />
-        <option name="ERROR_STRIPE_COLOR" value="139DB9" />
+        <option name="BACKGROUND" value="818471" />
+        <option name="ERROR_STRIPE_COLOR" value="15ADCB" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
@@ -818,9 +818,9 @@
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="326A75" />
-        <option name="EFFECT_COLOR" value="139DB9" />
-        <option name="ERROR_STRIPE_COLOR" value="139DB9" />
+        <option name="BACKGROUND" value="818471" />
+        <option name="EFFECT_COLOR" value="15ADCB" />
+        <option name="ERROR_STRIPE_COLOR" value="15ADCB" />
       </value>
     </option>
     <option name="TEXT_STYLE_ERROR">
@@ -856,7 +856,7 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3C3F41" />
+        <option name="BACKGROUND" value="36372F" />
         <option name="ERROR_STRIPE_COLOR" value="F92672" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -876,7 +876,7 @@
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="139DB9" />
+        <option name="FOREGROUND" value="15ADCB" />
       </value>
     </option>
     <option name="XML_NS_PREFIX">
