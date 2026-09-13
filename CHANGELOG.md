@@ -12,6 +12,7 @@
 - Kept the editor and tool windows at `#272822`, moved tool window headers and inactive tabs to `#151613`, and styled active tabs with `#36372F`.
 - Changed popup menu backgrounds to 90% opaque `#36372F` and their borders to solid `#151613`.
 - Added 90% opacity to notification and banner backgrounds while preserving solid semantic borders.
+- Applied the Apricode popup surface to alert dialogs and made Settings separators clearly visible.
 - Changed editor gutters and dark blue Islands states to `#404238`.
 
 ### Fixed
