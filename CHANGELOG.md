@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.0.1] - 2026-09-13
+
 ### Fixed
 
 - Restored distinct Go colors for imported packages, scoped variables, parameters, receivers, and callable values.
@@ -79,7 +81,8 @@
 
 - Initial release.
 
-[Unreleased]: https://github.com/arm092/apricode-monokai/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/arm092/apricode-monokai/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/arm092/apricode-monokai/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/arm092/apricode-monokai/compare/1.1.1...v2.0.0
 [1.2.2]: https://github.com/arm092/apricode-monokai/compare/1.2.1...1.2.2
 [1.2.1]: https://github.com/arm092/apricode-monokai/compare/1.2.0...1.2.1
