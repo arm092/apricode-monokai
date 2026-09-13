@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+### Added
+
+- Adopted the IntelliJ Platform Islands layout on 2026.2 and newer IDEs, preserving its native spacing and rounded corners.
+- Added an Apricode gray gradient for the main IDE frame.
+
+### Changed
+
+- Kept the editor at `#272822`, moved tool windows and inactive tabs to `#151613`, and styled active tabs with `#36372F`.
+- Changed editor gutters and dark blue Islands states to `#404238`.
+
 ### Fixed
 
 - Restored distinct Go colors for packages, shadowing variables, methods, structs, built-ins, types, receivers, and callable values.
