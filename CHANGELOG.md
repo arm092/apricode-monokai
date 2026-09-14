@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+## [3.0.4] - 2026-09-14
+
+### Changed
+
+- Increased project switcher hover contrast with the Apricode dark selection surface.
+- Made popup, menu, banner, and notification surfaces fully opaque.
+- Replaced the editor gutter run marker with the Apricode run triangle.
+- Unified Go interface declarations and references with the structure color.
+
 ## [3.0.3] - 2026-09-14
 
 ### Changed

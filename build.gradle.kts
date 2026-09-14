@@ -44,9 +44,10 @@ intellijPlatform {
         changeNotes.set(
             """
             <ul>
-              <li>Recolored indeterminate progress indicators with the Apricode orange gradient.</li>
-              <li>Replaced the blue memory usage gauge with an Apricode orange state.</li>
-              <li>Applied Apricode colors to toolbar badges and plugin restart actions.</li>
+              <li>Improved project switcher hover visibility with the Apricode dark selection surface.</li>
+              <li>Made popup, menu, banner, and notification surfaces fully opaque.</li>
+              <li>Replaced the editor gutter run marker with the Apricode run triangle.</li>
+              <li>Unified Go interface declarations and references with the structure color.</li>
             </ul>
             """.trimIndent(),
         )
