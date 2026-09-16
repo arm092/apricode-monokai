@@ -24,10 +24,17 @@
       "Objects.Pink": "#F92672",
       "Objects.Grey": "#818471",
       "Objects.BlackText": "#272822",
+      "Checkbox.Background.Default": "#36372F",
+      "Checkbox.Border.Default": "#818471",
       "Checkbox.Background.Selected": "#FD971F",
       "Checkbox.Border.Selected": "#FD971F",
       "Checkbox.Foreground.Selected": "#272822",
-      "Checkbox.Focus.Wide": "#B66202"
+      "Checkbox.Focus.Wide": "#B66202",
+      "Checkbox.Focus.Thin.Default": "#B66202",
+      "Checkbox.Focus.Thin.Selected": "#B66202",
+      "Checkbox.Background.Disabled": "#272822",
+      "Checkbox.Border.Disabled": "#404238",
+      "Checkbox.Foreground.Disabled": "#818471"
     }
   },
   "colors": {
@@ -43,6 +50,11 @@
     "accent-brand-border": "#FD971F",
     "accent-brand-bg-secondary": "#B66202",
     "accent-brand-border-secondary": "#B66202",
+    "control-bg": "#36372F",
+    "control-bg-disabled": "#272822",
+    "control-bg-raised": "#404238",
+    "text-link": "#15ADCB",
+    "got-it-text-link": "#15ADCB",
     "popup-bg": "#36372F",
     "popup-bg-inline": "#36372F",
     "popup-border": "#151613",

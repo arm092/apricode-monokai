@@ -36,6 +36,7 @@
     <option name="EDITOR_GUTTER_BACKGROUND" value="404238" />
     <option name="ERROR_HINT" value="F92672" />
     <option name="FILESTATUS_COPIED" value="A6E22E" />
+    <option name="FILESTATUS_UNKNOWN" value="F92672" />
     <option name="GUTTER_BACKGROUND" value="404238" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="A6E22E" />
     <option name="INFORMATION_HINT" value="818471" />

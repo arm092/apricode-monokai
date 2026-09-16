@@ -44,10 +44,8 @@ intellijPlatform {
         changeNotes.set(
             """
             <ul>
-              <li>Improved project switcher hover visibility with the Apricode dark selection surface.</li>
-              <li>Made popup, menu, banner, and notification surfaces fully opaque.</li>
-              <li>Replaced the editor gutter run marker with the Apricode run triangle.</li>
-              <li>Unified Go interface declarations and references with the structure color.</li>
+              <li>Replaced remaining blue input, checkbox, and link states with Apricode neutral and cyan colors.</li>
+              <li>Changed unversioned file names to the Apricode pink status color.</li>
             </ul>
             """.trimIndent(),
         )

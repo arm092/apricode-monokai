@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [3.0.5] - 2026-09-16
+
+### Changed
+
+- Replaced remaining blue input, checkbox, and link states with Apricode neutral and cyan colors.
+- Changed unversioned file names to the Apricode pink status color.
+
 ## [3.0.4] - 2026-09-14
 
 ### Changed
