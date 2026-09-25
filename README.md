@@ -1,5 +1,7 @@
 # Apricode Monokai
 
+[![Sponsor arm092](https://img.shields.io/badge/Sponsor-arm092-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/arm092)
+
 [![JetBrains Marketplace](https://img.shields.io/jetbrains/plugin/v/17730-apricode-monokai)](https://plugins.jetbrains.com/plugin/17730-apricode-monokai)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/17730-apricode-monokai)](https://plugins.jetbrains.com/plugin/17730-apricode-monokai)
 [![Build](https://github.com/arm092/apricode-monokai/actions/workflows/build.yml/badge.svg)](https://github.com/arm092/apricode-monokai/actions/workflows/build.yml)
