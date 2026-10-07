@@ -44,8 +44,7 @@ intellijPlatform {
         changeNotes.set(
             """
             <ul>
-              <li>Replaced remaining blue input, checkbox, and link states with Apricode neutral and cyan colors.</li>
-              <li>Changed unversioned file names to the Apricode pink status color.</li>
+              <li>Removed the white ignored-conflict background from the three-way merge viewer.</li>
             </ul>
             """.trimIndent(),
         )

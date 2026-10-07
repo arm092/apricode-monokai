@@ -539,7 +539,6 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="FOREGROUND" value="F8F8F2" />
         <option name="BACKGROUND" value="7A1338" />
         <option name="ERROR_STRIPE_COLOR" value="F92672" />
       </value>

@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [3.0.6] - 2026-10-07
+
+### Fixed
+
+- Removed the white ignored-conflict background from the three-way merge viewer.
+
 ## [3.0.5] - 2026-09-16
 
 ### Changed
